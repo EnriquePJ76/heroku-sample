@@ -10,6 +10,7 @@ def index():
     return render_template("index.html")
 
 @app.route("/aboutme")
+@app.route("/about-me")
 def aboutme():
     return render_template("aboutme.html")
 
